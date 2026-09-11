@@ -53,11 +53,11 @@ sudo rm -r /usr/share/icons/macOS-hypr* # Remove from all users
 
 **Usage:**
 
-Inside your `hyprland.conf` file:
+Inside your `hyprland.lua` file:
 
-```bash
-env = HYPRCURSOR_THEME,macOS-hypr
-env = HYPRCURSOR_SIZE,28                # Or any size you like
+```lua
+hl.env("HYPRCURSOR_THEME", "macOS-hypr")
+hl.env("HYPRCURSOR_SIZE", "28")            -- Or any size you like
 ```
 
 Or via _CLI_:
